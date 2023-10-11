@@ -175,9 +175,6 @@ article.product img {
     color: black;
 }
 
-.container-heart:hover .fa-heart    {
-    color: red;
-}
 
 .logo-social{
     padding: 0.5rem 0.4rem 0 0;
@@ -194,3 +191,38 @@ article.product img {
 .container-footer{
     padding: 1.5rem 0 1.5rem 0;
 }
+
+
+.card-heart .fa-heart {
+    color: black;
+}
+
+.card-heart:hover .fa-heart{
+    color: red ;
+}
+
+.card:hover .card-img-levisjacket{
+    content: url("../img/img/1b.webp");
+}      
+
+.card:hover .card-img-roses-tee{
+    content: url("../img/img/2b.webp");
+}      
+
+.card:hover .card-img-browndress{
+    content: url("../img/img/3b.webp");
+}      
+
+.card:hover .card-img-bluejacket{
+    content: url("../img/img/4b.webp");
+}      
+
+.card:hover .card-img-stripebodice{
+    content: url("../img/img/5b.webp");
+}      
+
+.card:hover .card-img-fullskirt{
+    content: url("../img/img/6b.webp");
+}      
+
+
