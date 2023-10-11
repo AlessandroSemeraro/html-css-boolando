@@ -19,15 +19,39 @@ main{
     align-items: center;
 }
 
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    font-size: 0.7rem;
+}
+
 h2{
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 600;
 }
 
+h4{
+    font-size: 0.9rem;
+}
+
 h5{
     display: inline-block;
     padding-right: 0.2rem;
+    font-family: sans-serif;
 }
 
 .flex-ja-center{
@@ -39,12 +63,6 @@ h5{
 .container{
     width: 65%;
 }   
-
-.container-main-flex-aj{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .container-header{
 padding: 1rem 0rem;
@@ -70,13 +88,22 @@ div.row{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem;
+    align-content: space-around;
+}
+
+div.first-row-space{
+    padding: 3rem 0 1rem 0;
+}
+
+div.second-row-space{
+    padding-bottom: 2.5rem;
 }
 
 article.product{
-width: calc(100% / 3);
-position: relative;
+    height: 100%;
+    width: calc(100% / 3);
+    margin: 0rem 0.4rem;
+    position: relative;
 
 }
 
@@ -101,13 +128,19 @@ article.product img {
 }
 
 .box-sale-position{
-    top: 80%;
+    position: absolute;
+    top: 75%;
 }
 
 .box-sustainability-position{
-    top: 80%;
+    position: absolute;
+    top: 75%;
     left: 12%;
-    
+}
+
+.box-sustainability-position-nomargin{
+    position: absolute;
+    top: 75%;
 }
 
 .container-heart{
@@ -140,4 +173,14 @@ article.product img {
 .old-price{
     text-decoration: line-through;
     color: black;
+}
+
+.container-heart:hover .fa-heart    {
+    color: red;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
